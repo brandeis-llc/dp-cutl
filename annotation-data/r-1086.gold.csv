@@ -1,0 +1,18 @@
+# 230115-104659
+r-1086::step02::sent01::000::CUTRES,RESULT,r-1086::step02::sent01::000
+r-1086::step02::sent01::001::CRL,1,r-1086::step02::sent01::000
+r-1086::step02::sent01::005::CUTRES,RESULT,r-1086::step02::sent01::005
+r-1086::step02::sent01::005::CUTRES,CUI,r-1086::step02::sent01::007::CRL
+r-1086::step02::sent01::000::CUTRES,1,r-1086::step02::sent01::005
+r-1086::step03::sent01::000::CUTRES,RESULT,r-1086::step03::sent01::000
+r-1086::step02::sent01::005::CUTRES,1,r-1086::step03::sent01::000
+r-1086::step04::sent01::000::CUTRES,RESULT,r-1086::step04::sent01::000
+r-1086::step03::sent01::000::CUTRES,1,r-1086::step04::sent01::000
+r-1086::step04::sent01::003::CRL,2,r-1086::step04::sent01::000
+r-1086::step04::sent01::008::CUTRES,RESULT,r-1086::step04::sent01::008
+r-1086::step04::sent01::000::CUTRES,1,r-1086::step04::sent01::008
+r-1086::step04::sent02::000::CUTRES,RESULT,r-1086::step04::sent02::000
+r-1086::step04::sent01::008::CUTRES,1,r-1086::step04::sent02::000
+r-1086::step04::sent02::002::CRL,2,r-1086::step04::sent02::000
+r-1086::step04::sent02::000::CUTRES,1,r-1086::@FINALIZE
+r-1086::FINALRES,RESULT,r-1086::@FINALIZE

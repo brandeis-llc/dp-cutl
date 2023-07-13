@@ -1,0 +1,40 @@
+# 230116-111030
+r-68::step01::sent01::002::CUTRES,RESULT,r-68::step01::sent01::002
+r-68::step01::sent01::004::CRL,1,r-68::step01::sent01::002
+r-68::step02::sent01::006::CUTRES,RESULT,r-68::step02::sent01::006
+r-68::step01::sent01::002::CUTRES,1,r-68::step02::sent01::006
+r-68::step01::sent01::002::CUTRES,CUI,r-68::step02::sent01::002::CRL
+r-68::step02::sent01::008::CRL,2,r-68::step02::sent01::006
+r-68::step02::sent01::010,COMMENT,"`they` refers to almonds which is part of `RES.add` as well as `RES.toss`, but there no way to explicit make that they is coreferential to almonds directly. "
+r-68::step02::sent01::010::CUTRES,RESULT,r-68::step02::sent01::010
+r-68::step02::sent01::010::CUTRES,CUI,r-68::step02::sent01::012::SRL::2::SRLINGREDIENT
+r-68::step02::sent01::006::CUTRES,1,r-68::step02::sent01::010
+r-68::step03::sent01::000::CUTRES1,RESULT,r-68::step03::sent01::000
+r-68::step03::sent01::000::CUTRES2,RESULT,r-68::step03::sent01::000
+r-68::step02::sent01::010::CUTRES,1,r-68::step03::sent01::000
+r-68::step02::sent01::010::CUTRES,CUI,r-68::step03::sent01::002::CRL
+r-68::step03::sent01::010::CUTRES,RESULT,r-68::step03::sent01::010
+r-68::step03::sent01::000::CUTRES2,1,r-68::step03::sent01::010
+r-68::step03::sent01::000::CUTRES2,CUI,r-68::step03::sent01::008::CRL
+r-68::step03::sent01::013,COMMENT,"The previous event `remove` meant `separate-and-discard` but I took it as separation and discarding the excess here."
+r-68::step03::sent01::013::CUTRES,RESULT,r-68::step03::sent01::013
+r-68::step03::sent01::013::CUTRES,PARTOF,r-68::step03::sent01::025::SRL::4::SRLINGREDIENT
+r-68::step03::sent01::013::CUTRES,CUI,r-68::step03::sent01::029::CRL
+r-68::step03::sent01::000::CUTRES1,1,r-68::step03::sent01::013
+r-68::step03::sent01::000::CUTRES1,CUI,r-68::step03::sent01::014::SRL::3::SRLINGREDIENT
+r-68::step03::sent01::017::CRL,2,r-68::step03::sent01::013
+r-68::step03::sent01::020::CRL,3,r-68::step03::sent01::013
+r-68::step04::sent01::000::CUTRES,RESULT,r-68::step04::sent01::000
+r-68::step03::sent01::013::CUTRES,1,r-68::step04::sent01::000
+r-68::step04::sent01::002::CRL,2,r-68::step04::sent01::000
+r-68::step04::sent01::004::CUTRES,RESULT,r-68::step04::sent01::004
+r-68::step04::sent01::000::CUTRES,1,r-68::step04::sent01::004
+r-68::step05::sent01::000::CUTRES,RESULT,r-68::step05::sent01::000
+r-68::step04::sent01::004::CUTRES,1,r-68::step05::sent01::000
+r-68::step05::sent01::006::CUTRES,RESULT,r-68::step05::sent01::006
+r-68::step05::sent01::000::CUTRES,1,r-68::step05::sent01::006
+r-68::step06::sent01::013::CUTRES,RESULT,r-68::step06::sent01::013
+r-68::step05::sent01::006::CUTRES,1,r-68::step06::sent01::013
+r-68::step05::sent01::006::CUTRES,CUI,r-68::step06::sent01::001::CRL
+r-68::step06::sent01::013::CUTRES,1,r-68::@FINALIZE
+r-68::FINALRES,RESULT,r-68::@FINALIZE

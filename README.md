@@ -10,7 +10,7 @@ Annotated data can be found in the [`annotation-data`](annotation-data) director
 
 ### Annotation Envorinment
 
-CUTLER, the environment we developed for the annotation, can be found in the [`cutler`](cutler) directory.
+CUTLER, the environment we developed for the annotation, can be found in the [`cutler`](https://github.com/keighrim/cutler/tree/a137dd14edf16c9fdd90b8da2d9530f7a93f7f3a) submodule.
 
 ### Annotation Guidelines
 
